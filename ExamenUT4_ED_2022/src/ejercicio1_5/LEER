@@ -1,0 +1,5 @@
+Refactoriza el codigo para extraer la superclase Figura que tenga
+el atributo comun   private Coordenada origen;
+en las clases Circulo y Rectangulo.
+
+Genera el método toString() para que se sobreescriba en las subclases
