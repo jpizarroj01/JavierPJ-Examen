@@ -1,15 +1,16 @@
 package ejercicio1_5;
 
-public class Circulo {
+public class Circulo extends Figura {
 
-    private Coordenada origen;
     private float radio;
 
     public Circulo() {
+		super();
     }
 
     public Circulo(Coordenada origen, float radio) {
-        this.origen = origen;
+        super();
+		this.origen = origen;
         this.radio = radio;
     }
 

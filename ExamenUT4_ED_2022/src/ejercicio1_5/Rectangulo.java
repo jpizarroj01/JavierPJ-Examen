@@ -1,7 +1,7 @@
 package ejercicio1_5;
 
-public class Rectangulo {
-    private Coordenada origen;
+public class Rectangulo extends Figura {
+	
     private int base;
     private int altura;
 

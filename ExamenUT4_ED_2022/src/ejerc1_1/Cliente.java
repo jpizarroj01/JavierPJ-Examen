@@ -1,15 +1,11 @@
 package ejerc1_1;
 /*
-Ejerc1_1: Extraer los datos relacionados con el telefono en otra clase llamada Telefono
+Ejerc1_1:  Extraer los datos relacionados con el telefono en otra clase llamada Telefono
  */
-public class Cliente {
+public class Cliente extends Telefono {
     private String nombre;
-    private String prefijoTelefonoTrabajo;
-    private String telefonoTrabajo;
-    private String prefijoTelefonoCasa;
-    private String telefonoCasa;
-
     public Cliente() {
+		super();
     }
 
     public String getNombre() {

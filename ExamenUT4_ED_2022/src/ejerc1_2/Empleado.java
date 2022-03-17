@@ -3,9 +3,24 @@ package ejerc1_2;
  Ejerc1_2: hacer que el método getSalario sea polimorfico, tenga un comportamiento diferente segun
  el tipo de empleado
  */
+
+/**
+ * Clase Empleados: Tiene todos los datos del empleado y podemos elegir si queremos que sea ingeniero, vendedor o director.
+ * @author prueba
+ *
+ */
 public class Empleado {
+	/**
+	 * INGENIERO: es una constante
+	 */
     static final String INGENIERO = "ingeniero";
+    /**
+	 * VENCEDOR: es una constante
+	 */
     static final String VENDEDOR = "vendedor";
+    /**
+	 * DIRECTOR: es una constante
+	 */
     static final String DIRECTOR = "director";
 
     private String nombre;

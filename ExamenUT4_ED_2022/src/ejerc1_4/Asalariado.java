@@ -4,10 +4,6 @@ package ejerc1_4;
  Ejerc1_4: ¿qué podrías refactorizar en este ejercicio? Justifica tu respuesta y refactoriza en caso necesario.
  */
 public class Asalariado extends Empleado{
-    private String nombre;
-    private String direccion;
-    private String telefono;
-    private String email;
 
     public Asalariado() {
     }
@@ -16,35 +12,54 @@ public class Asalariado extends Empleado{
        super(nombre, direccion, telefono, email);
     }
 
-    public String getNombre() {
-        return nombre;
-    }
+	@Override
+	public String getNombre() {
+		// TODO Auto-generated method stub
+		return super.getNombre();
+	}
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	@Override
+	public void setNombre(String nombre) {
+		// TODO Auto-generated method stub
+		super.setNombre(nombre);
+	}
 
-    public String getDireccion() {
-        return direccion;
-    }
+	@Override
+	public String getDireccion() {
+		// TODO Auto-generated method stub
+		return super.getDireccion();
+	}
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
+	@Override
+	public void setDireccion(String direccion) {
+		// TODO Auto-generated method stub
+		super.setDireccion(direccion);
+	}
 
-    public String getTelefono() {
-        return telefono;
-    }
+	@Override
+	public String getTelefono() {
+		// TODO Auto-generated method stub
+		return super.getTelefono();
+	}
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
+	@Override
+	public void setTelefono(String telefono) {
+		// TODO Auto-generated method stub
+		super.setTelefono(telefono);
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	@Override
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return super.getEmail();
+	}
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	@Override
+	public void setEmail(String email) {
+		// TODO Auto-generated method stub
+		super.setEmail(email);
+	}
+
+    
+    
 }
